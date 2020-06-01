@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(../images/4092.jpg);
+    background-size: cover;
+}
+#header_Section article{
+    background-color: #3c618f;
+    display: flex;
+}
+#header_Section article .logo{
+    width: 35%;
+}
+.logo img{
+    margin-left: 35px;
+    padding: 14px 0 12px 0;
+    height: 85px;
+    width: 115px;
+}
+#headerBlock article .search{
+    width: 65%;
+}
+
+.search form {
+    padding: 29px 0px ;
+     border-radius: 5px solid rgb(28, 40, 148);
+
+}
+.search  input {
+    padding: 18px 145px;
+    border: 0;
+    border-radius: 20px;
+    background: hsla(0,0%,100%,.2);
+    text-align: center;
+   
+}
+  ::placeholder{
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.icon img{
+    height: 39px !important;
+    width: auto !important;
+    object-fit: scale-down;
+}
+#weather_Block .card-body p,
+#weather_Block span{
+    padding: 4px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #03A9F4;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    margin: 10px;
+}
+#weather_Block .card-body div{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
